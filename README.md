@@ -10,13 +10,15 @@ Um aplicativo moderno de lista de tarefas (Todo) construído com React e TypeScr
 
 ## Recursos
 
--   **Adicionar Novas Tarefas:** Crie novas tarefas facilmente.
--   **Alternar Conclusão:** Marque as tarefas como concluídas ou não concluídas.
--   **Excluir Tarefas:** Remova tarefas individuais.
--   **Limpar Tarefas Concluídas:** Remova rapidamente todas as tarefas concluídas.
--   **Filtrar Tarefas:** Visualize todas, ativas ou concluídas.
--   **Alternar Tema:** Alterne entre os modos claro e escuro para uma experiência personalizada.
--   **Design Responsivo:** Otimizado para visualização em desktops e dispositivos móveis.
+## 🚀 Funcionalidades
+
+- ✅ **Adicionar novas tarefas**
+- 🔁 **Marcar como concluída ou pendente**
+- 🗑️ **Excluir tarefas individuais**
+- 🧹 **Limpar todas as tarefas concluídas**
+- 🔎 **Filtrar tarefas (Todas | Ativas | Concluídas)**
+- 🌗 **Alternar entre tema claro e escuro**
+- 📱 **Design totalmente responsivo**
 
 ## Tecnologias Utilizadas
 
@@ -26,3 +28,22 @@ Um aplicativo moderno de lista de tarefas (Todo) construído com React e TypeScr
 -   **Tailwind CSS:** Um framework CSS utility-first para construir designs personalizados rapidamente.
 -   **ESLint:** Para manter a qualidade e consistência do código.
 
+## 📚 Desafios e Aprendizados
+
+Durante o desenvolvimento, alguns pontos foram desafiadores e contribuíram diretamente para o aprendizado:
+
+# 🎯 Gerenciamento de Estado
+
+Entender quando utilizar **useState** para estado local e quando utilizar **Context API** para estado global (como o tema) foi essencial para manter o código organizado e escalável.
+
+# 🎨 Estilização Dinâmica com Tailwind
+
+Aplicar classes condicionais para alternar temas e estados (ativo, concluído, hover) exigiu atenção na construção das strings de classe e organização do design system.
+
+# 🧩 Tipagem com TypeScript
+
+Criar interfaces como `Todo` e tipar corretamente props, eventos e estados ajudou a evitar erros e melhorar a previsibilidade do código.
+
+# 🔁 Filtros e Manipulação de Arrays
+
+Trabalhar com métodos como `.filter()`, `.map()` e garantir imutabilidade reforçou boas práticas no React.
