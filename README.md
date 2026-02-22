@@ -32,18 +32,18 @@ Um aplicativo moderno de lista de tarefas (Todo) construído com React e TypeScr
 
 Durante o desenvolvimento, alguns pontos foram desafiadores e contribuíram diretamente para o aprendizado:
 
-# 🎯 Gerenciamento de Estado
+### 🎯 Gerenciamento de Estado
 
 Entender quando utilizar **useState** para estado local e quando utilizar **Context API** para estado global (como o tema) foi essencial para manter o código organizado e escalável.
 
-# 🎨 Estilização Dinâmica com Tailwind
+### 🎨 Estilização Dinâmica com Tailwind
 
 Aplicar classes condicionais para alternar temas e estados (ativo, concluído, hover) exigiu atenção na construção das strings de classe e organização do design system.
 
-# 🧩 Tipagem com TypeScript
+### 🧩 Tipagem com TypeScript
 
 Criar interfaces como `Todo` e tipar corretamente props, eventos e estados ajudou a evitar erros e melhorar a previsibilidade do código.
 
-# 🔁 Filtros e Manipulação de Arrays
+### 🔁 Filtros e Manipulação de Arrays
 
 Trabalhar com métodos como `.filter()`, `.map()` e garantir imutabilidade reforçou boas práticas no React.
