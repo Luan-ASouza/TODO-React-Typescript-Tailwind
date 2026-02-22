@@ -4,8 +4,8 @@ Um aplicativo moderno de lista de tarefas (Todo) construído com React e TypeScr
 
 ## Images
 
-![Screenshot Mobile Light](./public/images/LightMobile.png)
-![Screenshot Desktop Dark](./public/images/DarkDesktop.png)
+![Screenshot Mobile Light](./src/assets/images/LightMobile.png)
+![Screenshot Desktop Dark](./src/assets/images/DarkDesktop.png)
 
 
 ## Recursos

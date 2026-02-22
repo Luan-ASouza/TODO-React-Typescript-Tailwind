@@ -2,7 +2,7 @@ import TodoHeader from "./components/TodoHeader";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
 import TodoContainer from "./components/TodoContainer";
-import { useTodo } from "../src/hooks/useTodo";
+import { useTodo } from "./hooks/useTodo";
 
 
 function App() {

@@ -2,8 +2,8 @@ import { themeConfig } from "../../contexts/theme";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { useContext } from "react";
 import type { Todo } from "../../hooks/useTodo";
-import iconCheck from "../../../public/images/icon-check.svg";
-import iconCross from "../../../public/images/icon-cross.svg";
+import iconCheck from "../../assets/images/icon-check.svg";
+import iconCross from "../../assets/images/icon-cross.svg";
 
 interface TodoListProps {
   deleteTodo: (id: number) => void;
