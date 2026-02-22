@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from "react";
+import { useState, useEffect, type FormEvent } from "react";
 
 export interface Todo {
   id: number;
@@ -8,8 +8,15 @@ export interface Todo {
 
 export const useTodo = () => {
 
-    const [todoList, setTodoList] = useState<Todo[]>([]);
+    const [todoList, setTodoList] = useState<Todo[]>(() => {
+        const saved = localStorage.getItem('todos');
+        return saved ? JSON.parse(saved) : [];
+    });
     const [filter, setFilter] = useState<'all' | 'active' | 'completed'>('all');
+
+    useEffect(() => {
+        localStorage.setItem('todos', JSON.stringify(todoList));
+    }, [todoList]);
 
     const addTodo = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();

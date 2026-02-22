@@ -18,6 +18,7 @@ Um aplicativo moderno de lista de tarefas (Todo) construído com React e TypeScr
 - 🧹 **Limpar todas as tarefas concluídas**
 - 🔎 **Filtrar tarefas (Todas | Ativas | Concluídas)**
 - 🌗 **Alternar entre tema claro e escuro**
+- 💾 **Persistência de dados (localStorage)**
 - 📱 **Design totalmente responsivo**
 
 ## Tecnologias Utilizadas
@@ -26,6 +27,7 @@ Um aplicativo moderno de lista de tarefas (Todo) construído com React e TypeScr
 -   **TypeScript:** Um superconjunto tipado de JavaScript que compila para JavaScript puro.
 -   **Vite:** Uma ferramenta de construção rápida que fornece um servidor de desenvolvimento instantâneo e empacota seu código.
 -   **Tailwind CSS:** Um framework CSS utility-first para construir designs personalizados rapidamente.
+-   **Web Storage API (localStorage):** Utilizada para persistir os dados das tarefas localmente no navegador.
 -   **ESLint:** Para manter a qualidade e consistência do código.
 
 ## 📚 Desafios e Aprendizados
@@ -43,6 +45,10 @@ Aplicar classes condicionais para alternar temas e estados (ativo, concluído, h
 ### 🧩 Tipagem com TypeScript
 
 Criar interfaces como `Todo` e tipar corretamente props, eventos e estados ajudou a evitar erros e melhorar a previsibilidade do código.
+
+### 💾 Persistência e Efeitos Colaterais
+
+Implementar o **useEffect** foi fundamental para sincronizar a lista de tarefas com o **localStorage**. Isso garante que os dados permaneçam salvos mesmo após o recarregamento da página, proporcionando uma experiência de usuário mais robusta.
 
 ### 🔁 Filtros e Manipulação de Arrays
 
